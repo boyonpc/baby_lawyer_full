@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby lawyer game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Baby Lawyer Muslim Church</h2>
+    </header>
+
+    <div class="container">
+        <div class="player-label"><h2 id="player-label"></h2></div>
+        
+        <section class="row">
+            <div class="container" id="finger-show"></div>
+        </section>
+
+        <section class="result">
+            <div class="user-score">
+                <h2 id="user-score"></h2>
+            </div>
+
+            <div class="who-wins">
+                <h2 id="winner"></h2>
+            </div>
+        </section>
+
+        <section class="finger-choice">
+            <h2 id="chosen"></h2>
+            <div class="finger-choice-buttons">
+                <button class="btn finger-num" data-finger="0">0</button>
+                <button class="btn finger-num" data-finger="1">1</button>
+                <button class="btn finger-num" data-finger="2">2</button>
+                <button class="btn finger-num" data-finger="3">3</button>
+                <button class="btn finger-num" data-finger="4">4</button>
+                <button class="btn finger-num" data-finger="5">5</button>
+                <button class="btn finger-num" data-finger="6">6</button>
+                <button class="btn finger-num" data-finger="7">7</button>
+                <button class="btn finger-num" data-finger="8">8</button>
+                <button class="btn finger-num" data-finger="9">9</button>
+                <button class="btn finger-num" data-finger="10">10</button>
+            </div>
+            <button class="btn" id="start">Go</button>
+        </section>
+
+        <section class="row">
+            <div class="container">
+                <img src="images/baby.png" data-choice="baby" class="choice">
+                <img src="images/lawyer.png" data-choice="lawyer" class="choice">
+                <img src="images/muslim.png" data-choice="muslim" class="choice">
+                <img src="images/church.png" data-choice="church" class="choice">
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
